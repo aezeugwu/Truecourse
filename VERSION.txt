@@ -1,0 +1,6 @@
+TrueCourse v0.1.0
+Built: 2026-09-19
+
+This is a first real, installable build — not the full production app
+described in the consolidated spec. What's in this build vs. what's still
+pending is listed in README.md.
