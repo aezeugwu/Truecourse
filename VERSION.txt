@@ -1,0 +1,15 @@
+TrueCourse v0.6.0
+Built: 2026-09-21
+
+v0.6.0: two new features.
+1. Soft stake enforcement — Afternoon's On Track/At Risk/Abandoned pulse
+   is now real (it was decorative before, a gap found while building
+   this). Mark "Abandoned" 3+ days in a cycle and Home shows your
+   Cycle Commitment back to you, full-screen, until you acknowledge it.
+   No charges, no lockouts — self-enforced by design.
+2. Google Calendar one-way sync — push today's Critical/Development
+   blocks into your real Google Calendar so its own reminders notify
+   you. Needs a one-time Google Cloud Client ID (steps in the Guide's
+   new Calendar Sync entry). NOTE: the actual Google connection could
+   not be tested in the build sandbox (no internet access there) —
+   please test the Connect + Sync buttons for real on your phone.
