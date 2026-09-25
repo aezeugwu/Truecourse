@@ -1,0 +1,25 @@
+TrueCourse v0.7.1
+Built: 2026-09-25
+
+Two real bugs fixed, both found from your screen recording.
+
+1. Practice tab: the Morning phase chips (Start/Build/Finish/Review/
+   Reset) were purely decorative — "Build" was hardcoded permanently
+   selected, clicking did nothing. The "What must be true by tonight?"
+   priority field and all 8 Evening review textareas were also never
+   connected to anything — nothing you typed was ever saved. All of
+   this is now real and persists like everything else in the app
+   (auto-saves as you go, same pattern as the rest of TrueCourse — no
+   separate save step needed). "Save evening review" now gives a
+   "Saved ✓" confirmation since the fields beneath it were already
+   saving live.
+
+2. Bigger one: the real installed app was rendering a decorative
+   "phone-in-a-phone" mockup frame — fixed 390px width, black border,
+   capped height with a big dead empty area below — that was only ever
+   meant for previewing inside chat conversations, not for an actual
+   installed app on a real device. This has been in every version
+   since launch. Fixed: the app now fills the real screen edge-to-edge.
+
+Verified on a real mobile-sized viewport with a screenshot, not just a
+code read-through, and confirmed both fixes survive a cold reload.
