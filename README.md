@@ -1,26 +1,18 @@
-# TrueCourse v0.7.2
+# TrueCourse v0.7.3
 
 Personal Cycle & Execution OS — the merged successor to PC-EOS and 60D-POS.
 
 ## What's fixed
 
-**Log was crashing silently.** If you had zero Critical and zero
-Development projects — easy to reach while testing Add/Remove — the
-Log screen tried to default to "the first available project" and hit
-a hard error with nothing shown on screen, which just looked like the
-page refusing to open. Fixed: it now shows a clear message and points
-you to Projects or the Incubator instead. A second, less likely version
-of the same kind of crash (an empty schedule for the day) was also
-guarded against while this was being fixed.
-
-**Confirmed by design:** Morning and Afternoon in Practice have no
-Save button on purpose — everything there saves the instant you
-interact with it, same as most of the app. Evening keeps its Save
-button as a closing confirmation for a screen with several fields.
+"Open full Review →" on Home did nothing when tapped — it had no click
+handler at all, the same kind of oversight as the phase chips and
+Evening fields fixed in v0.7.1. It now correctly opens Review. A full
+scan of every button and tap-chip in the app was done afterward to
+check for any others like it — none remain.
 
 ## What's real (cumulative)
 
-Everything from v0.2.0 through v0.7.1.
+Everything from v0.2.0 through v0.7.2.
 
 ## What's NOT in this build yet
 
