@@ -1,0 +1,23 @@
+TrueCourse v0.7.2
+Built: 2026-09-25
+
+Two things addressed.
+
+1. Confirmed by design, not a bug: Morning and Afternoon have no Save
+   button because every field there auto-saves the instant you tap or
+   type — same pattern as most of the app. Evening keeps its Save
+   button as a closing confirmation, since it's the one screen with
+   several fields you might fill in over a few minutes.
+
+2. Real crash, found and reproduced: Log would go completely blank
+   with no error shown if you had zero Critical and zero Development
+   projects (very reachable after testing the remove-project feature)
+   — the screen tried to default to "the first available project" and
+   crashed when there wasn't one. Fixed with a proper message instead
+   ("No Critical or Development projects yet — add one in Projects, or
+   promote an idea from the Incubator"). Also hardened the same screen
+   against a second, rarer empty-schedule edge case found while fixing
+   the first one.
+
+Both reproduced and confirmed fixed with the exact broken state
+recreated first, not just read through the code.
