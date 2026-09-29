@@ -1,8 +1,15 @@
-TrueCourse v0.7.3
-Built: 2026-09-25
+TrueCourse v0.8.1
+Built: 2026-09-29
 
-Fixed: "Open full Review →" on Home had no click handler at all — same
-decorative-button pattern as the last two bugs. It now actually takes
-you to Review. While in there, scanned the entire codebase for any
-other buttons or tap-chips missing a click handler — none found, this
-was the last one.
+Fixed: the footer at the bottom of Settings said "v0.3 — draft preview"
+through every release since v0.3, so nothing in the app could tell you
+which version your phone was actually running. It now shows the real
+version, read from a single value in the code.
+
+Also added a pre-release check that compares the version shown in the
+app, the cache name in sw.js, VERSION.txt and README.md, and refuses to
+ship if any of them disagree. A stale sw.js cache name is exactly what
+kept your phone on old versions earlier, so it can't be left to memory.
+
+To confirm you're on this version: Settings → scroll to the bottom →
+it should read "TrueCourse v0.8.1".
