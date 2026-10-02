@@ -1,31 +1,32 @@
-TrueCourse v0.14.0
+TrueCourse v0.16.0
 Built: 2026-10-02
 
-TIMERS NOW END WITH A SOFT CHIME
+VALUE AUDIT IS NOW REAL (the last place that showed sample numbers)
 
-Before, a timer ended with a vibration only, which does nothing if the
-phone is face down, and nothing at all if the screen has switched off.
-That is a problem when your eyes are closed.
+What was wrong: Review's Value Audit looked like your data and wasn't. The 12
+bar widths came from a formula on each pair's number (40 + (id x 7) mod 40),
+and the line "Where your B-time went: Reactive (9) - Consuming (6) - Drift (4)"
+was typed into the code. The Guide admitted the bars were illustrative; the
+typed line wasn't flagged anywhere.
 
-- Three quiet, bell-like notes (C, E, G) that swell in gently and fade over
-  about three seconds. Made on the phone, no sound file.
-- Plays when the 5-minute / 2-minute visualization, the 2-minute reset and the
-  30-second reconnect finish. "Stop early" stays silent.
-- The screen is kept awake while a timer counts down, because a phone whose
-  screen has switched off cannot sound anything. It is released the moment
-  the timer ends or you close it.
-- The sound is unlocked when you tap Start (phones only allow sound after a
-  tap), so it is allowed to play minutes later.
-- Settings → Timers: a switch to turn the chime off, and "Play a sample" so
-  you can set your volume BEFORE you close your eyes.
+Now, for the scope you pick (Day, Week, Cycle, Lunar, All):
+- Each pair you've tagged gets a bar: how your logged blocks split between the
+  A side and the B side, from what you tapped under "what it actually was".
+- Under each bar: how many blocks and how many hours went to each side.
+- A coverage line says how many sessions were tagged out of how many you
+  logged. Blocks you didn't tag aren't counted.
+- Pairs with no tags aren't drawn as bars; they're listed as "not tagged".
+- A sum line ties it to your headline number: "All pairs together: 5 of 9
+  tags are A-side - that's your Execution Ratio (56%)". The bars are by number
+  of tagged blocks, the same basis as the Execution Ratio, so they always agree.
+- "Where your B-time went" now lists your three biggest B sides by real hours.
+- With nothing tagged yet, it says so instead of showing bars.
 
-IT PLAYS AT YOUR PHONE'S MEDIA VOLUME. If you hear nothing, turn media volume up.
+The Guide's Review entry now explains this instead of admitting the bars were
+illustrative.
 
-NOT BUILT (offered, not requested): a second, quieter chime if the timer
-screen is still open 30 seconds after the first.
-
-STILL TRUE
-- Backup does not include each past day's schedule record, your cycle start
-  date or your Google Client ID. Settings → Practice targets and Alerts do
-  nothing yet.
-- Value Audit in Review (12 bars + "Where your B-time went") is sample data.
+CHECKED: I opened every screen on a blank app. Every computed score, chart and
+comparison reads zero or a dash there. The only preset figures are the starter
+projects' opening progress (for example Real Estate Management at 40%) and the
+count of those projects. That is ordinary editable content, not a statistic; set
+or delete those projects to suit you.
