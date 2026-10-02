@@ -1,50 +1,31 @@
-TrueCourse v0.11.0
+TrueCourse v0.14.0
 Built: 2026-10-02
 
-ALIGNMENT: all ten steps of "How to Talk to the Universe", as daily practice.
-The app does not claim the book's explanation is true. It records the
-practices and shows, from YOUR history, whether days with them look different.
+TIMERS NOW END WITH A SOFT CHIME
 
-WHERE EACH STEP LIVES
- 1 Limiting beliefs ........ Practice → Alignment → Beliefs I'm rewriting
- 2 Replacement beliefs ..... same; shows on Practice → Morning and Evening
-                             with an "I read it" tap, and on Home
- 3 What + Why + Feeling .... Practice → Alignment → Your intention (also on
-                             Home). Joins into one sentence.
- 4 Gratitude anchoring ..... Practice → Alignment → Morning alignment
-                             (3 gratitudes + 1 thing on its way; Quick mode)
- 5 Future-self decisions ... Log → Pattern / Incident → detail section
- 6 Visualization ........... Alignment → 5-minute timer (Quick = 2 min); ends
-                             by showing your obstacle and plan
- 7 Curate environment ...... Review → What's draining you + Environment audit
-                             (once per cycle; Home reminds you until done)
- 8 Anchors ................. Home → Your intention: sentence + replacement
-                             belief, "Breathe & reconnect" (30 s), and
-                             "Lock-screen picture" (saves a phone-sized image)
- 9 Body baseline ........... Alignment → four taps; Review compares with Day Score
-10 Detachment / reset ...... Pattern log "What is this asking me to adjust?"
-                             + 2-minute reset (Home missed-block banner, Alignment)
+Before, a timer ended with a vibration only, which does nothing if the
+phone is face down, and nothing at all if the screen has switched off.
+That is a problem when your eyes are closed.
 
-THE FULL 10 STEPS are the last entry in the Guide, with a button to Alignment;
-Alignment has a button back to them.
+- Three quiet, bell-like notes (C, E, G) that swell in gently and fade over
+  about three seconds. Made on the phone, no sound file.
+- Plays when the 5-minute / 2-minute visualization, the 2-minute reset and the
+  30-second reconnect finish. "Stop early" stays silent.
+- The screen is kept awake while a timer counts down, because a phone whose
+  screen has switched off cannot sound anything. It is released the moment
+  the timer ends or you close it.
+- The sound is unlocked when you tap Start (phones only allow sound after a
+  tap), so it is allowed to play minutes later.
+- Settings → Timers: a switch to turn the chime off, and "Play a sample" so
+  you can set your volume BEFORE you close your eyes.
 
-REVIEW (new cards): Alignment practice, Body baseline (each compared with
-your Day Score), What's draining you, Environment audit.
-Those comparisons now use FINISHED days only. Before, today was counted,
-which skewed the Practice comparison too. That one is fixed as well.
-Honest limits: a comparison needs days in both groups; it shows "not enough
-days" until then, and says it is your history, not proof of cause.
+IT PLAYS AT YOUR PHONE'S MEDIA VOLUME. If you hear nothing, turn media volume up.
 
-OTHER
-- Journal shows your alignment practice and the two new Pattern lines.
-- Backup/restore includes beliefs and audits.
-- Everything fills in for a missed day with the ◀ ▶ bar, like the rest of Practice.
-- Timer counts from the clock, so a locked screen doesn't throw it off.
-  "Stop early" does not count as done.
+NOT BUILT (offered, not requested): a second, quieter chime if the timer
+screen is still open 30 seconds after the first.
 
-NOT BUILT: appointment blocks that flag overlapping work blocks.
-
-STILL TRUE (README is not updated)
+STILL TRUE
+- Backup does not include each past day's schedule record, your cycle start
+  date or your Google Client ID. Settings → Practice targets and Alerts do
+  nothing yet.
 - Value Audit in Review (12 bars + "Where your B-time went") is sample data.
-  Execution Ratio and Alignment Score are real.
-- No Discard for Incubator ideas. Lunar has no entry to backfill.

@@ -1,4 +1,4 @@
-# TrueCourse v0.11.0
+# TrueCourse v0.14.0
 
 *Observe → Capture → Learn → Change*
 
@@ -6,7 +6,7 @@ A personal cycle and execution app, the successor to PC-EOS and 60D-POS. It runs
 on your phone as an installable web app, keeps everything on that phone (no
 account, no server), and is built to keep working without a connection after the first load.
 
-Version 0.11.0 · built 2026-10-02 · the version number is shown at the bottom
+Version 0.14.0 · built 2026-10-02 · the version number is shown at the bottom
 of **Settings**.
 
 ---
@@ -15,7 +15,7 @@ of **Settings**.
 
 | Tab | What it's for |
 |---|---|
-| **Home** | Today at a glance: the current block, today's schedule (tap a Critical or Development block to log it), your intention with **Breathe & reconnect**, the missed-block banner, live Day Score / Execution Ratio / Alignment Score, Tomorrow, the project pipeline. **Edit times / projects ›** changes today's schedule. |
+| **Home** | Today at a glance: the current block, today's schedule (tap a Critical or Development block to log it), your in-focus intention with **Breathe & reconnect**, the missed-block banner, live Day Score / Execution Ratio / Alignment Score, Tomorrow, the project pipeline. **Edit times / projects ›** changes today's schedule. |
 | **Incubator** | Capture ideas, park them, and promote one to Critical, Development or Sleeping when there's room. Each idea records the date you captured it. |
 | **Practice** | A ◀ ▶ date bar, then four sections: **Morning** (your ONE priority, phase, check-in), **Afternoon** (midday pulse, check-in), **Evening** (check-in plus 8 reflection questions), **Alignment** (see below). Everything saves as you type. |
 | **Log** | **Block Activity**: pick a day and a block, mark Completed or Partial, set the real time, write what you did, move progress, tag it against the 12 pairs. **Pattern / Incident**: catch what pulled you off track or what you noticed. |
@@ -23,9 +23,9 @@ of **Settings**.
 | **Projects** | Critical (max 2), Development (max 6), Sleeping. Progress with − and + buttons. Tap a project for its objective, why it matters, notes, and Mark progress on a chosen date. Idle for 14 days shows as stagnant. |
 | **Cycle** | A 30-day cycle you control, independent of the calendar month and the moon. Tap any day to set its template, projects and block times. |
 | **Lunar** | The real moon phase and lunar day (display only). |
-| **Review** | Scope by Day, Week, Cycle, Lunar or All. Scores, vision check, practice consistency, alignment practice, body baseline, what's draining you, environment audit, category breakdown, project pulse, idea funnel. |
+| **Review** | Scope by Day, Week, Cycle, Lunar or All. Scores, your intentions (how often each obstacle hit, and whether you ran your plan), practice consistency, alignment practice, body baseline, what's draining you, environment audit, category breakdown, project pulse, idea funnel. |
 | **Guide** | Every screen explained with examples, the 12 pairs, and the full 10 steps (last entry). |
-| **Settings** | Cycle start/reset, **Day hours**, templates and weekly defaults, accountability and your Cycle Commitment, Google Calendar sync, Backup. |
+| **Settings** | Cycle start/reset, **Day hours**, templates and weekly defaults, **Timers** (chime on/off, play a sample), accountability and your Cycle Commitment, Google Calendar sync, Backup. |
 
 ---
 
@@ -39,6 +39,7 @@ of **Settings**.
 - **Progress control.** − and + move it 5% a tap, so a stray touch can't jump it to 100%. Tap the number to type an exact value. The "last moved" clock only restarts when progress goes *up*.
 - **Your Cycle Commitment.** Mark your ONE priority "Abandoned" on 3 or more days in a cycle and Home shows your stake back to you until you acknowledge it. Nothing is charged or locked.
 - **Compress remaining schedule** (Home, after missed blocks) saves its new times, so a later change can't undo it.
+- **Timers end with a soft chime** (visualization, 2-minute reset, 30-second reconnect), so you know without opening your eyes. It plays at your phone's *media* volume. The screen stays awake while a timer runs, because a phone whose screen has switched off can't sound anything. "Stop early" is silent. Settings → Timers has an on/off switch and **Play a sample**; play it before you close your eyes.
 
 ---
 
@@ -52,7 +53,7 @@ your own history, whether days with them look different.
 |---|---|---|
 | 1 | Limiting beliefs | Practice → Alignment → *Beliefs I'm rewriting* → + Add a belief |
 | 2 | Replacement beliefs | Same form. Shows on Practice → Morning and Evening with **I read it**, and on Home |
-| 3 | What + Why + Feeling | Practice → Alignment → *Your intention* (also on Home) |
+| 3 | What + Why + Feeling | Practice → Alignment → *Your intentions* (the one in focus is also on Home) |
 | 4 | Gratitude | Practice → Alignment → *Morning alignment* (3 gratitudes + one thing on its way; Quick mode) |
 | 5 | Future-self decisions | Log → Pattern / Incident → + why / effect / link to project |
 | 6 | Visualization | Alignment → Start 5-minute visualization (Quick = 2 min); ends by showing your obstacle and plan |
@@ -61,12 +62,39 @@ your own history, whether days with them look different.
 | 9 | Body baseline | Alignment → four taps; Review compares with your Day Score |
 | 10 | Detachment and reset | Pattern log "What is this asking me to adjust?" and the **2-minute reset** (Home banner, Alignment → Tools) |
 
+### Up to three intentions
+
+You can hold up to **3 active intentions** at once, each with What, Why, Feeling,
+Outcome, Obstacle, Plan and optional linked projects (one intention can serve several projects, and several intentions can share one). One is **in focus**: it is
+what Home, the lock-screen picture, Breathe & reconnect and the visualization's
+obstacle-and-plan reminder use. Home shows "2 of 3" with a **Next intention ›**
+tap. Manage them in Practice → Alignment → *Your intentions*: add, edit, switch
+focus, mark achieved, remove. Achieved ones move to a list with the date and free
+a slot.
+
+**The obstacle check.** When an obstacle actually happens, log it in Log →
+Pattern / Incident → *+ why / effect / link to project*, choose which intention it
+was the obstacle for, and answer "Did I run my plan?" (Yes / Partly / No). Review →
+*Intentions* then shows, for each one, how often the obstacle hit and how often you
+ran your plan. It counts only entries you linked and never guesses from the words
+you typed.
+
+**Crediting work.** When you log time in Block Activity on a linked project, it shows
+which intention it serves and your plan. If one intention serves the project, the
+session counts toward it automatically. If two or more share it, you can tick which
+one(s) the session advanced. Review → *Intentions* then shows sessions and hours
+credited per intention, plus each linked project's progress. A session ticked for
+more than one intention counts in full for each, so those totals overlap; hours are
+not split. Progress is per project, so intentions sharing a project show the same
+percentage. Each project's detail in Projects shows which intentions it serves, and
+deleting a project removes it from every intention. Work is credited from the day
+you installed this update; earlier sessions are not.
+
 Review compares your Day Score on days you did a practice against days you
 didn't, **using finished days only**. It shows "not enough days yet" until both
 kinds exist, and it labels the result as your own history, not proof of cause.
 The lock-screen picture is saved to your Downloads; you set it as wallpaper
-yourself. Timers count from the clock, so a locked screen doesn't throw them
-off, but the buzz at the end may not fire while locked.
+yourself. Timers count from the clock and end with a soft chime plus a vibration.
 
 ---
 
@@ -77,7 +105,7 @@ site data **deletes it**, so export a backup first.
 
 **Settings → Backup → Export JSON** saves a file containing: templates and weekly
 defaults, day plans (including per-block times), project progress and
-last-progress dates, projects, ideas, triggers, your intention, accountability,
+last-progress dates, projects, ideas, triggers, your intentions (and which one is in focus), accountability,
 logs, practice entries, day hours, beliefs, and environment audits.
 
 **The backup does NOT include** (restoring on a new phone will lose these):
@@ -144,6 +172,7 @@ there is something new), which is why it is always one of the three.
 - Two-way calendar sync.
 
 **Unverified**
+- **The timer chime** was checked by measuring the sound the app generates (quiet, slow swell, slow fade), not by listening on a real phone. It plays at media volume, and keeping the screen awake depends on the phone and browser supporting it.
 - **Offline use.** The app's files are cached on the phone, so it should open without a connection. That has not been tested on a real phone.
 - **Google Calendar sync** is a one-way push of today's Critical and Development blocks. It has never been tested against a real Google account (it needs a Client ID; steps are in the Guide). It only syncs while the app is open.
 
@@ -158,6 +187,9 @@ there is something new), which is why it is always one of the three.
 
 | Version | What changed |
 |---|---|
+| 0.14.0 | **Timers end with a soft chime** and keep the screen awake while running. Settings → Timers: on/off and a sample. |
+| 0.13.0 | Projects and intentions work both ways: an intention can serve several projects and several can share one. Logged time is credited to the intention(s) it advanced; Review shows sessions, hours and project progress per intention; Projects shows "Serves: …"; deleting a project clears its links. |
+| 0.12.0 | **Up to three intentions**, one in focus. A real obstacle check: link a Pattern entry to an intention and record whether you ran your plan; Review shows it per intention. Linked projects remind you of your plan in Block Activity. |
 | 0.11.0 | **Alignment**: all ten steps (intention, gratitude, visualization timer, beliefs, body baseline, anchors, resets, environment audit). Comparisons use finished days only. |
 | 0.10.0 | **Day hours** and per-block times for any day, including today. Today's schedule follows your plan. Compress now sticks. |
 | 0.9.1 | **Journal** tab. |
