@@ -1,15 +1,50 @@
-TrueCourse v0.8.1
-Built: 2026-09-29
+TrueCourse v0.11.0
+Built: 2026-10-02
 
-Fixed: the footer at the bottom of Settings said "v0.3 — draft preview"
-through every release since v0.3, so nothing in the app could tell you
-which version your phone was actually running. It now shows the real
-version, read from a single value in the code.
+ALIGNMENT: all ten steps of "How to Talk to the Universe", as daily practice.
+The app does not claim the book's explanation is true. It records the
+practices and shows, from YOUR history, whether days with them look different.
 
-Also added a pre-release check that compares the version shown in the
-app, the cache name in sw.js, VERSION.txt and README.md, and refuses to
-ship if any of them disagree. A stale sw.js cache name is exactly what
-kept your phone on old versions earlier, so it can't be left to memory.
+WHERE EACH STEP LIVES
+ 1 Limiting beliefs ........ Practice → Alignment → Beliefs I'm rewriting
+ 2 Replacement beliefs ..... same; shows on Practice → Morning and Evening
+                             with an "I read it" tap, and on Home
+ 3 What + Why + Feeling .... Practice → Alignment → Your intention (also on
+                             Home). Joins into one sentence.
+ 4 Gratitude anchoring ..... Practice → Alignment → Morning alignment
+                             (3 gratitudes + 1 thing on its way; Quick mode)
+ 5 Future-self decisions ... Log → Pattern / Incident → detail section
+ 6 Visualization ........... Alignment → 5-minute timer (Quick = 2 min); ends
+                             by showing your obstacle and plan
+ 7 Curate environment ...... Review → What's draining you + Environment audit
+                             (once per cycle; Home reminds you until done)
+ 8 Anchors ................. Home → Your intention: sentence + replacement
+                             belief, "Breathe & reconnect" (30 s), and
+                             "Lock-screen picture" (saves a phone-sized image)
+ 9 Body baseline ........... Alignment → four taps; Review compares with Day Score
+10 Detachment / reset ...... Pattern log "What is this asking me to adjust?"
+                             + 2-minute reset (Home missed-block banner, Alignment)
 
-To confirm you're on this version: Settings → scroll to the bottom →
-it should read "TrueCourse v0.8.1".
+THE FULL 10 STEPS are the last entry in the Guide, with a button to Alignment;
+Alignment has a button back to them.
+
+REVIEW (new cards): Alignment practice, Body baseline (each compared with
+your Day Score), What's draining you, Environment audit.
+Those comparisons now use FINISHED days only. Before, today was counted,
+which skewed the Practice comparison too. That one is fixed as well.
+Honest limits: a comparison needs days in both groups; it shows "not enough
+days" until then, and says it is your history, not proof of cause.
+
+OTHER
+- Journal shows your alignment practice and the two new Pattern lines.
+- Backup/restore includes beliefs and audits.
+- Everything fills in for a missed day with the ◀ ▶ bar, like the rest of Practice.
+- Timer counts from the clock, so a locked screen doesn't throw it off.
+  "Stop early" does not count as done.
+
+NOT BUILT: appointment blocks that flag overlapping work blocks.
+
+STILL TRUE (README is not updated)
+- Value Audit in Review (12 bars + "Where your B-time went") is sample data.
+  Execution Ratio and Alignment Score are real.
+- No Discard for Incubator ideas. Lunar has no entry to backfill.
