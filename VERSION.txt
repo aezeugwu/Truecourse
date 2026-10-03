@@ -1,41 +1,44 @@
-TrueCourse v0.18.0
-Built: 2026-10-02
+TrueCourse v0.19.0
+Built: 2026-10-03
 
-LUNAR CALENDAR AND POWER DAYS
+THE THREE PROBLEMS YOU SHOWED IN YOUR RECORDING
 
-THE LUNAR TAB is now a tappable calendar of one lunar cycle (the day of one New
-Moon up to the day before the next: 29 or 30 days), with the real moon phase on
-every day. The arrows step between cycles.
+1. AIs, entered once per project
+   Projects -> open a project -> "AIs I work with on this project": tick Claude,
+   ChatGPT, Copilot, Qwen, Perplexity, Gemini, Grok. "+ Add another AI" adds one
+   to the list for every project. Under each ticked AI, optionally note where it
+   lives (its project or chat name). In Log -> Block Activity the project's AIs
+   appear ALREADY TICKED at the top; untick any you did not use today, or use
+   "+ other AIs" for one-off ones. The fixed ChatGPT / Claude / Gemini /
+   Perplexity / Other buttons and the "AI project or chat" box are gone: that
+   information now lives with the project and is entered once. An AI you added
+   cannot be removed from the list while a project still uses it (it says which).
 
-POWER DAYS. Settings -> Your sign: enter your birth date. The app works out your
-sun sign from where the Sun really was that day. If you were born on a day the
-Sun changed signs, it says so and lets you choose. Then, on the Lunar tab:
-  * Primary power day: the Moon is in your sign
-  * Secondary harmony day: the Moon is in another sign of your element
-A day is marked if the Moon is in that sign at any time during it.
+2. Milestones where you work
+   Projects: a milestone LIST per project. Type them, or paste a list (one per
+   line). The first one not yet reached is the NEXT MILESTONE. Tick one when
+   reached; reorder with the arrows. Your old single "next milestone" box counts
+   as item one, so nothing you typed is lost.
+   Log -> Block Activity: right under the project, a "project at a glance" card:
+   next milestone (for example "2 of 5") with "Reached - next" and "Undo last
+   reached", the objective, where you left off, and the AIs. The closed project
+   card in Projects shows the next milestone and the AIs too.
 
-TAP A DAY for: its phase and the guidance you supplied, whether it is a power
-day for you and why, the exact moment of a New / First Quarter / Full / Last
-Quarter Moon when one falls that day, and the hours the Moon is in each sign.
+3. Losing what you typed
+   Cause: the log form lived only on screen, so leaving the Log tab threw it away.
+   Now everything in Block Activity autosaves as you type, one draft per block and
+   day. Switch tabs, reload, or close the app: it is all still there and Log
+   reopens on your draft. A block with a draft is marked "draft" on Home and in the
+   block list; several drafts can wait at once ("Other drafts" jumps between them).
+   NOTHING IS RECORDED until you tap Save, which clears that draft. "Discard
+   draft" (it asks first) throws one away. Just opening the log, or typing and then
+   clearing it again, leaves no draft. Drafts are included in your backup.
+   To your question: you do not need to press Save until you are finished, and you
+   can leave and come back to continue.
 
-BELIEFS ARE STATED AS BELIEFS. Everything about influence reads "It is believed
-that..." and is never imposed. The app only calculates where the Moon really is.
-
-WHY THE DATES COME FROM A CALCULATION, NOT FROM THE DOCUMENT
-The power-day text you supplied lists one month of Moon-in-sign dates. They do
-not match the real sky in any of the Octobers 2024 to 2027 checked (0 of 13
-windows within a day), and the Moon changes sign every 2-3 days, so the dates
-shift every month. Its wording (the themes and descriptions) is used; its dates
-are not.
-
-ACCURACY. The Moon's and Sun's positions are calculated (Meeus series) and were
-checked against published data: eclipse positions within 0.74 degrees, New Moon
-times within a minute, Full Moons within a few minutes, the March 2026 equinox
-within ten minutes. Phases and sign changes are accurate to about an hour.
-
-THE PHASE IS NOW THE REAL PHASE. The old average-month model could be up to 17
-hours out (for example it put the 10 Oct 2026 New Moon on the 11th), which could
-show the wrong phase on a day around a change. Home and the Lunar tab now agree,
-and "Lunar Day n/29" now says 29 or 30 as the real cycle is.
-
-Your birth date stays on this phone. It is included in your backup file.
+ALSO
+- Moving a project between Critical, Development, Sleeping and Done keeps its AIs
+  and milestones.
+- "Copy for another AI" shows the current next milestone, and the AIs with where each
+  lives.
+- The Guide's Projects, Log and Session handoff entries explain all of this.
