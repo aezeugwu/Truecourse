@@ -1,32 +1,41 @@
-TrueCourse v0.16.0
+TrueCourse v0.18.0
 Built: 2026-10-02
 
-VALUE AUDIT IS NOW REAL (the last place that showed sample numbers)
+LUNAR CALENDAR AND POWER DAYS
 
-What was wrong: Review's Value Audit looked like your data and wasn't. The 12
-bar widths came from a formula on each pair's number (40 + (id x 7) mod 40),
-and the line "Where your B-time went: Reactive (9) - Consuming (6) - Drift (4)"
-was typed into the code. The Guide admitted the bars were illustrative; the
-typed line wasn't flagged anywhere.
+THE LUNAR TAB is now a tappable calendar of one lunar cycle (the day of one New
+Moon up to the day before the next: 29 or 30 days), with the real moon phase on
+every day. The arrows step between cycles.
 
-Now, for the scope you pick (Day, Week, Cycle, Lunar, All):
-- Each pair you've tagged gets a bar: how your logged blocks split between the
-  A side and the B side, from what you tapped under "what it actually was".
-- Under each bar: how many blocks and how many hours went to each side.
-- A coverage line says how many sessions were tagged out of how many you
-  logged. Blocks you didn't tag aren't counted.
-- Pairs with no tags aren't drawn as bars; they're listed as "not tagged".
-- A sum line ties it to your headline number: "All pairs together: 5 of 9
-  tags are A-side - that's your Execution Ratio (56%)". The bars are by number
-  of tagged blocks, the same basis as the Execution Ratio, so they always agree.
-- "Where your B-time went" now lists your three biggest B sides by real hours.
-- With nothing tagged yet, it says so instead of showing bars.
+POWER DAYS. Settings -> Your sign: enter your birth date. The app works out your
+sun sign from where the Sun really was that day. If you were born on a day the
+Sun changed signs, it says so and lets you choose. Then, on the Lunar tab:
+  * Primary power day: the Moon is in your sign
+  * Secondary harmony day: the Moon is in another sign of your element
+A day is marked if the Moon is in that sign at any time during it.
 
-The Guide's Review entry now explains this instead of admitting the bars were
-illustrative.
+TAP A DAY for: its phase and the guidance you supplied, whether it is a power
+day for you and why, the exact moment of a New / First Quarter / Full / Last
+Quarter Moon when one falls that day, and the hours the Moon is in each sign.
 
-CHECKED: I opened every screen on a blank app. Every computed score, chart and
-comparison reads zero or a dash there. The only preset figures are the starter
-projects' opening progress (for example Real Estate Management at 40%) and the
-count of those projects. That is ordinary editable content, not a statistic; set
-or delete those projects to suit you.
+BELIEFS ARE STATED AS BELIEFS. Everything about influence reads "It is believed
+that..." and is never imposed. The app only calculates where the Moon really is.
+
+WHY THE DATES COME FROM A CALCULATION, NOT FROM THE DOCUMENT
+The power-day text you supplied lists one month of Moon-in-sign dates. They do
+not match the real sky in any of the Octobers 2024 to 2027 checked (0 of 13
+windows within a day), and the Moon changes sign every 2-3 days, so the dates
+shift every month. Its wording (the themes and descriptions) is used; its dates
+are not.
+
+ACCURACY. The Moon's and Sun's positions are calculated (Meeus series) and were
+checked against published data: eclipse positions within 0.74 degrees, New Moon
+times within a minute, Full Moons within a few minutes, the March 2026 equinox
+within ten minutes. Phases and sign changes are accurate to about an hour.
+
+THE PHASE IS NOW THE REAL PHASE. The old average-month model could be up to 17
+hours out (for example it put the 10 Oct 2026 New Moon on the 11th), which could
+show the wrong phase on a day around a change. Home and the Lunar tab now agree,
+and "Lunar Day n/29" now says 29 or 30 as the real cycle is.
+
+Your birth date stays on this phone. It is included in your backup file.

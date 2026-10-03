@@ -1,4 +1,4 @@
-const CACHE = "truecourse-v0.16.0";
+const CACHE = "truecourse-v0.18.0";
 const ASSETS = ["./", "./index.html", "./app.js", "./manifest.json", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", (event) => {
