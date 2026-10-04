@@ -1,44 +1,53 @@
-TrueCourse v0.19.0
+TrueCourse v0.20.0
 Built: 2026-10-03
 
-THE THREE PROBLEMS YOU SHOWED IN YOUR RECORDING
+DELEGATING WORK: HAND IT OFF, FREE THE SLOT, STILL NEVER FORGET IT
 
-1. AIs, entered once per project
-   Projects -> open a project -> "AIs I work with on this project": tick Claude,
-   ChatGPT, Copilot, Qwen, Perplexity, Gemini, Grok. "+ Add another AI" adds one
-   to the list for every project. Under each ticked AI, optionally note where it
-   lives (its project or chat name). In Log -> Block Activity the project's AIs
-   appear ALREADY TICKED at the top; untick any you did not use today, or use
-   "+ other AIs" for one-off ones. The fixed ChatGPT / Claude / Gemini /
-   Perplexity / Other buttons and the "AI project or chat" box are gone: that
-   information now lives with the project and is entered once. An AI you added
-   cannot be removed from the list while a project still uses it (it says which).
+THE PROBLEM
+A Critical project that once took two and a half hours now just needs a quick
+check on the agent doing it. It should stop holding a Critical slot, and still be
+tracked, with many such projects handled from ONE time-box.
 
-2. Milestones where you work
-   Projects: a milestone LIST per project. Type them, or paste a list (one per
-   line). The first one not yet reached is the NEXT MILESTONE. Tick one when
-   reached; reorder with the arrows. Your old single "next milestone" box counts
-   as item one, so nothing you typed is lost.
-   Log -> Block Activity: right under the project, a "project at a glance" card:
-   next milestone (for example "2 of 5") with "Reached - next" and "Undo last
-   reached", the objective, where you left off, and the AIs. The closed project
-   card in Projects shows the next milestone and the AIs too.
+WHAT YOU GET
+1. AGENTS (Projects -> Agents). Unlimited. Name, what they do, email, WhatsApp,
+   phone, notes. Call / WhatsApp / Email open your phone's own app with the message
+   ready. A number typed locally (0801 234 5678) becomes international using the
+   default country code in Settings -> Delegation (+234 to start). Contact details
+   are part of your backup.
+2. DISPATCH. Open a Critical, Development or Sleeping project -> "Dispatch to
+   agents...". Pick the agents (add one on the spot), give each their own part, set
+   a report-back date and how often to check in (3 days to start). The brief is
+   written from the project: name, objective, why it matters, milestones in order.
+   The project moves to DELEGATED (a new tab, no limit) and its slot is free at once.
+   You are offered each agent's brief to send, and can promote another project into
+   the freed Critical slot with one tap. Milestones, AIs, handoffs and progress
+   travel with it.
+3. THE DELEGATION DESK. The first dispatch creates it. It takes ONE Development slot
+   and holds every delegated project. Give it a Development time block like any
+   project: choose "Delegation Desk" when you log that block and you see all your
+   delegated projects, most urgent first. Open one to contact the agent, move its
+   milestone, set its status (Dispatched / In progress / Needs my answer / Blocked /
+   Delivered), record questions in both directions with the answers, and log a
+   check-in (saved as you type). "Write this from the check-ins I logged today" fills
+   in your block note.
+4. NOT FORGETTING. Each delegated project has its own check-in clock (instead of the
+   14-day stagnation flag). Logging a check-in schedules the next. HOME shows
+   "Check-ins due" for anything overdue, due today, with a question waiting from the
+   agent, blocked, or delivered. Review's project line counts delegated work.
+5. WHEN IT COMES BACK. "Accept & close" sends a finished project to Done with its
+   whole history (including who had it). "Take back" returns it to Critical or
+   Development when a slot is free.
 
-3. Losing what you typed
-   Cause: the log form lived only on screen, so leaving the Log tab threw it away.
-   Now everything in Block Activity autosaves as you type, one draft per block and
-   day. Switch tabs, reload, or close the app: it is all still there and Log
-   reopens on your draft. A block with a draft is marked "draft" on Home and in the
-   block list; several drafts can wait at once ("Other drafts" jumps between them).
-   NOTHING IS RECORDED until you tap Save, which clears that draft. "Discard
-   draft" (it asks first) throws one away. Just opening the log, or typing and then
-   clearing it again, leaves no draft. Drafts are included in your backup.
-   To your question: you do not need to press Save until you are finished, and you
-   can leave and come back to continue.
+HONEST LIMITS
+- The app cannot send messages or see replies by itself (it has no server). It opens
+  WhatsApp / email / the dialer with the text ready; you record what happened.
+- It does not notify you when an agent finishes. The check-in clock and Home's
+  "Check-ins due" are how you are reminded.
+- The Desk uses one of your six Development slots. If all six are full, free one
+  before the first dispatch (the panel says so).
 
-ALSO
-- Moving a project between Critical, Development, Sleeping and Done keeps its AIs
-  and milestones.
-- "Copy for another AI" shows the current next milestone, and the AIs with where each
-  lives.
-- The Guide's Projects, Log and Session handoff entries explain all of this.
+FOUND AND FIXED WHILE TESTING
+- A helper clamped negative day counts to zero, which would have shown every
+  delegated project as "due today" forever. Replaced with a signed count.
+
+Earlier releases are summarised in the README's version history.
